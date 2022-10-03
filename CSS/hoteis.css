@@ -5,9 +5,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: lato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
-    background-color: #0d0d0df1;;
+    background-color: #08172E;
 }
 
 .hotel__ind{
@@ -20,10 +20,10 @@
 }
 
 .bloco{
-    width: 50%;
-    height: 90vh;
+    width: 60%;
+    height: 130vh;
     border: 0.5px solid rgb(70, 70, 70);
-    border-radius: 3%;
+    border-radius: 2%;
     padding: 1% 2% 0 2%;
     box-sizing: border-box;
     display: flex;
@@ -35,7 +35,8 @@
 p{
     color: #fff;
     text-align: justify;
-    font-size: 16px;    
+    font-size: 16px; 
+    padding: 0.2rem;   
 }
 
 h3{
@@ -83,6 +84,16 @@ i{
     color: #fff;
 }
 
+.botao_enviar{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid rgb(180, 180, 180);
+    color: rgb(180, 180, 180);
+}
+
 
 .botao a:hover{
     background-color: rgba(80, 80, 80, 0.9);
@@ -111,78 +122,88 @@ label {
 
 textarea{
     width: 100%;
-    height: 10%;
+    height: 100%;
     color: rgb(180, 180, 180);
+    resize: none;
 }
 
 .imagem_ibis {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/hotel\ ibis\ style\ anhembi\ 2.jpg);
-    background-size: center;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_confort {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Hotel\ comfort.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_mercure {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Mercure.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_bluetreemorumbi {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Blue\ tree\ 2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_wtc {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/WTC.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_bourbon {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Bourbon\ 2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_bluetreepaulista {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Blue\ tree\ paulista\ 2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_goldentulip {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/golden\ tulip\ paulista\ plaza.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .imagem_renaissance {
     width: 100%;
-    height: 35vh;
+    height: 100%;
     background-image: url(../images/Renaissance\ São\ Paulo\ Hotel\ 2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-repeat:no-repeat;
+    background-position: center;
 }
